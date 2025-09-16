@@ -2,7 +2,7 @@ package Java_Basics;
 
 public class Lab002_Numeric_Datatypes {
     public static void main(String[] args) {
-        byte b = 100;
+        byte b = 127;
         int i = 2332455;
         short s = 4334;
         long l =237235632953495L;
