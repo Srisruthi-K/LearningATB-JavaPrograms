@@ -1,6 +1,5 @@
 package Java_Basics;
 
-import java.util.Arrays;
 
 public class Lab004_Printf_forloop {
     public static void main(String[] args) {
