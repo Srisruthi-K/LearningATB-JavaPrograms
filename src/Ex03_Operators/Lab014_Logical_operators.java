@@ -9,7 +9,7 @@ public class Lab014_Logical_operators {
         System.out.println(!!b);
         System.out.println(a && b);
         System.out.println(a || b);
-
+        System.out.println(10==10);
         int age = 20;
         boolean isStudent = true;
 
