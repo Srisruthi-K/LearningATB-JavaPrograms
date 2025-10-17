@@ -6,11 +6,30 @@ public class Max_3_numbers {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the three numbers");
-        if (sc.hasNextInt()) {
-            int a = sc.nextInt();
-            int b = sc.nextInt();
-            int c = sc.nextInt();
+        double a, b, c;
 
+        if (sc.hasNextDouble()) {
+             a = sc.nextDouble();
+        }
+            else
+            {
+                System.out.println("Invalid input for first number.");
+                return;
+            }
+            if(sc.hasNextDouble()) {
+                b = sc.nextDouble();
+            }
+            else{
+                System.out.println("Invalid input for second number.");
+                return;
+            }
+        if(sc.hasNextDouble()) {
+             c = sc.nextDouble();
+        }
+        else{
+            System.out.println("Invalid input for third number.");
+            return;
+        }
             if (a > b && a > c) {
                 System.out.println("a is the greatest number " + a);
             } else if (b > c && b > a) {
@@ -20,9 +39,7 @@ public class Max_3_numbers {
             } else if (a == b || a == c || b == c) {
                 System.out.println("Two or more numbers are equal.Enter different numbers");
             }
-        } else {
-            System.out.println("Enter an integer");
         }
 
     }
-}
+
