@@ -14,6 +14,10 @@ public class Grade_calculator {
             return;
         }
         int score= sc.nextInt();
+        if( score<0 || score>100)
+        {
+            System.out.println("Invalid input.Enter score between 0 and 100.");
+        }
      if( score >=90 && score<=100) {
          System.out.println("Grade : A");
       }
@@ -29,5 +33,6 @@ public class Grade_calculator {
      else if (score >=0 && score<=59) {
          System.out.println("Grade : F");
      }
+
     }
 }
