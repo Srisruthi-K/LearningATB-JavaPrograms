@@ -1,4 +1,4 @@
-package Exercise;
+package Exercise_23rdOCT;
 import java.util.Scanner;
 
 public class Palindrome {
