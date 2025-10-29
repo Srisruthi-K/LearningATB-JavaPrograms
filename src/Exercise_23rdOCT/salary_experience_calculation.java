@@ -24,16 +24,15 @@ public class salary_experience_calculation {
             System.out.println("Bonus is " + bonus);
         } else if (YOE >= 1 && YOE <= 3) {
             bonus = salary * 0.05;
-            System.out.println("Bonus is " + bonus + "for salary of " + salary);
-            return;
+
         } else if (YOE > 3 && YOE <= 6) {
             bonus = salary * 0.1;
-            System.out.println("Bonus is " + bonus + "for salary of " + salary);
-            return;
+
         } else if (YOE > 6) {
             bonus = salary * 0.15;
+        }
             System.out.println("Bonus is " + bonus + "for salary of " + salary);
             return;
         }
     }
-}
+
