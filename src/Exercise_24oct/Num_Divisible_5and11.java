@@ -10,6 +10,7 @@ public class Num_Divisible_5and11 {
         if(!sc.hasNextInt())
         {
             System.out.println("Invalid input.Enter a valid number");
+            return;
         }
         int num = sc.nextInt();
         sc.close();
